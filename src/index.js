@@ -406,6 +406,7 @@ const Swipeout = createReactClass({
       contentWidth: width,
       contentHeight: height,
     });
+    this.props.onLayout(event);
   },
 
   _renderButtons: function (buttons, isVisible, style) {
